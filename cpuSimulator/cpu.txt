@@ -1,0 +1,13 @@
+MOV R1, 11 ;his is a counter to loop around in the multiplication process
+MOV R3, 0           ;THE REGISTER WHICH WILL HOLD SUM OF NUMBERS
+SUB R1, 1           ;IN REGISTER R1 IS THE NUMBER OF 'N' SQUARE NUMBERS TO BE ADDED
+MOV R1, R2          ;ad
+ADD R3, R1          ;THE REGISTER R3 IS THE ONE HOLDING THE SUMMATION OF SQUARES OF NUMBERS
+SUB R2, 1           ;ddf
+JMP R2, 3           ;sf
+JMP R1, 11 	    ;sad
+PRN R3   
+JMP 5               ;THIS JUMP STATEMENT PERFORM MULTIPLICATION OF A NUMBER BY ADDING IT IN 'N' TIMES.
+HLT
+
+
