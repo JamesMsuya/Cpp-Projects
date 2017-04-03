@@ -1,0 +1,4 @@
+This programs simulatate the working of a simple cpu.
+It contains registers and memory.
+so it performs basic cpu operation such as load, add, remove and stores them in registers or
+take them from registeres and store them in memory. 
